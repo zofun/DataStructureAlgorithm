@@ -32,4 +32,12 @@ public class SortTest {
         Assert.assertArrayEquals(sort,SortedIntegerArray);
     }
 
+    @Test
+    public void ShellSortTest(){
+        ShellSort shellSort=new ShellSort();
+        shellSort.sort(IntegerArray);
+        print(IntegerArray);
+        Assert.assertArrayEquals(IntegerArray,SortedIntegerArray);
+    }
+
 }

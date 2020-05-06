@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/compiler.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/workspace.xml
+DataStructureAlgorithm.iml
+src/main/java/dataStructure/
+src/main/resources/
+target/
